@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SEDC.Project.DataAccess\SEDC.Project.DataAccess.csproj" />
+    <ProjectReference Include="..\SEDC.Project.Domain\SEDC.Project.Domain.csproj" />
+    <ProjectReference Include="..\SEDC.Project.DTOS\SEDC.Project.DTOS.csproj" />
+    <ProjectReference Include="..\SEDC.Project.Mappers\SEDC.Project.Mappers.csproj" />
+  </ItemGroup>
+
+</Project>
